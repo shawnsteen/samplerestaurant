@@ -1,0 +1,51 @@
+.hidden {
+    display: inline-block;
+}
+
+.shown {
+    display: none;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+.button {
+    border: none;
+}
+
+.collapsable-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-item {
+    font-size: 1.2rem;
+}
+
+.jumbotron img {
+    width: 600px;
+}
+
+.card-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    padding: 1em 0;
+}
+
+.map-tile {
+    width: 600px;
+}
+
+.footer-card-wrapper {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 5vw;
+}
+
+.footer-devider {
+    display: none;
+}

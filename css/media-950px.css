@@ -1,0 +1,27 @@
+
+
+.logo-hidden {
+    display: inline-block;
+}
+
+.navbar {
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.navbar-brand {
+    width: 50vw;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.kosher-text {
+    padding-left: 5em;
+}
+
+.collapsable-navbar {
+    width: 50vw;
+    justify-content: space-between;
+}
+
