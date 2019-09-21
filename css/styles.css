@@ -262,7 +262,7 @@ address {
 }
 
 .menu-item-img {
-    display: none;
+/*     display: none; */
     margin: .5em auto;
     position: relative;
     width: 250px;
