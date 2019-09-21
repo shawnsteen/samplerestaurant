@@ -5,12 +5,155 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>China Moon</title>
-    
+    <!-- <link rel="stylesheet" href="css/normalize.css"> -->
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" media="screen and (min-width: 650px)" href="css/media-650px.css">
+    <link rel="stylesheet" media="screen and (min-width: 950px)" href="css/media-950px.css">
     <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+    <script src="https://kit.fontawesome.com/ee4630549c.js" crossorigin="anonymous"></script>
   </head>
 <body>
-  
+  <header>
+<!-- main navigation -->
+    <div class="navbar-wrapper">
+      <nav class="navbar">
+          <div class="navbar-brand">
+            <div class="logo-hidden">
+              <img src="images/restaurant-logo_small.png" alt="David Chu's logo">
+            </div>
+              <h1><a href="index.html">David Chu's China Bistro</a></h1>
+              <p class="kosher-text">
+                <img src="images/star-k-logo.png" alt="Kosher certification">
+                <span>KOSHER CERTIFIED</span>
+              </p>
+            </div>
+        <div class="navbar-toggle colapsed shown" onclick="toggleNav()">
+            <i class="fas fa-bars shown"></i>
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </div>
+        <div class="collapsable-navbar hidden">
+          <a href="menu-categories.html" class="nav-item"><span><i class="fas fa-utensils"></i>Menu</span></a>
+          <a href="#" class="nav-item"><span><i class="fas fa-info-circle"></i>About</span></a>
+          <a href="#" class="nav-item"><span><i class="fas fa-certificate"></i>Awards</span></a>
+          <div class="cta hidden">
+              <div class="button" id="phone-num-2">
+                <a href="tel:410-602-5008">
+                    <span class="nav-item">410-602-5008</span>
+                </a>
+              </div>
+              <p class="sub-text">*We Deliver</p>
+            </div>
+        </div> 
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="menu-categories">
+      <h1 class="menu-categories-heading">Menu Categories</h1>
+      <p class="sub-text">Substituting white rice with brown rice or fried rice after 3:00pm will be $1.50 for a pint and $2.50 for a quart.</p>
+      <a href="menu.html#" class="menu-nav"><div class="menu-category-card">
+        <p class="card-label">Lunch</p>
+      </div></a>
+      <a href="menu.html#" class="menu-nav"><div class="menu-category-card">
+        <p class="card-label">Soup</p>
+      </div></a>
+      <a href="menu.html#" class="menu-nav"><div class="menu-category-card">
+        <p class="card-label">Appetizers</p>
+      </div></a>
+      <a href="menu.html#" class="menu-nav"><div class="menu-category-card">
+        <p class="card-label">Chef's recommendations</p>
+      </div></a>
+      <a href="menu.html#" class="menu-nav"><div class="menu-category-card">
+        <p class="card-label">Chicken</p>
+      </div></a>
+      <a href="menu.html#" class="menu-nav"><div class="menu-category-card">
+        <p class="card-label">Beef</p>
+      </div></a>
+      <a href="menu.html#" class="menu-nav"><div class="menu-category-card">
+        <p class="card-label">Veal</p>
+      </div></a>
+      <a href="menu.html#" class="menu-nav"><div class="menu-category-card">
+        <p class="card-label">Duck</p>
+      </div></a>
+      <a href="menu.html#" class="menu-nav"><div class="menu-category-card">
+        <p class="card-label">Vegetables</p>
+      </div></a>
+      <a href="menu.html#" class="menu-nav"><div class="menu-category-card">
+        <p class="card-label"Curry></p>
+      </div></a>
+      <a href="menu.html#" class="menu-nav"><div class="menu-category-card">
+        <p class="card-label">Noodles (Lo mein)</p>
+      </div></a>
+      <a href="menu.html#" class="menu-nav"><div class="menu-category-card">
+        <p class="card-label">Mei fan (very fine noodles)</p>
+      </div></a>
+      <a href="menu.html#" class="menu-nav"><div class="menu-category-card">
+        <p class="card-label"Pan frien noodles></p>
+      </div></a>
+      <a href="menu.html#" class="menu-nav"><div class="menu-category-card">
+        <p class="card-label">Fried rice</p>
+      </div></a>
+      <a href="menu.html#" class="menu-nav"><div class="menu-category-card">
+        <p class="card-label">Chow mein</p>
+      </div></a>
+      <a href="menu.html#" class="menu-nav"><div class="menu-category-card">
+        <p class="card-label">Egg foo young</p>
+      </div></a>
+      <a href="menu.html#" class="menu-nav"><div class="menu-category-card">
+        <p class="card-label">Side orders</p>
+      </div></a>
+      <a href="menu.html#" class="menu-nav"><div class="menu-category-card">
+        <p class="card-label">Desserts</p>
+      </div></a>
+      <a href="menu.html#" class="menu-nav"><div class="menu-category-card">
+        <p class="card-label">Dinner combo</p>
+      </div></a>
+      <a href="menu.html#" class="menu-nav"><div class="menu-category-card">
+        <p class="card-label">Sushi menu</p>
+      </div></a>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-card-wrapper">
+      <div class="footer-card hours-card">
+        <h4 class="footer-header">Hours:</h4>
+        <p class="footer-hours">Sun-Thurs: 11am - 10pm</p>
+        <p class="footer-hours">Friday: 11am - 2am</p>
+        <p class="footer-hours">Saturday: Closed</p>
+      </div>
+
+      <div class="footer-devider"></div>
+
+      <div class="footer-card address-card">
+        <h4 class="footer-header">Address:</h4>
+        <address>705 Reistertown Road<br>Baltimore, MD 21215</address>
+        <p class="address-sub">*Delivery area within 5 miles. $20 minimum order. $3 delivery charge.</p>
+      </div>
+
+      <div class="footer-devider"></div>
+
+      <div class="footer-card quote-card">
+        <p class="quote">
+          "The best Chinese restaurant I've been to! And that's saying a lot, since I've been to many!"
+        </p>
+        <p class="quote">
+          "Amazing food! Great service! Couldn't ask for more! I'll be back again and again!"
+        </p>
+      </div>
+
+    </div>
+    
+    <div class="copyright">
+      &copy; Made with &hearts; by <a href=""><span class="my-logo">Shawn</span></a>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
 </body>
 </html>

@@ -7,11 +7,12 @@
 }
 
 h1 {
-    font-size: 2rem;
+    font-size: 1.6rem;
 }
 
 .button {
     border: none;
+    color: #557c3e
 }
 
 .collapsable-navbar {
@@ -49,3 +50,41 @@ h1 {
 .footer-devider {
     display: none;
 }
+
+/* Menu */
+.menu-main {
+    margin: 0;
+}
+.menu-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+}
+
+h3 {
+    grid-column: 1 / -1;
+    padding: 1em 0;
+}
+
+ /* .menu-item-img {
+    width: 30vw;
+} */
+/*
+.menu-item-label {
+}*/
+
+.menu-item-card {
+    width: 100%;
+    border: none;
+}
+
+.menu-item-heading,.menu-item-description,.item-price {
+    /* align-items: center; */
+    margin:0;
+    padding:0;
+}
+
+
+/* .item-price>.menu-sub-text {
+    font-size: 5rem;
+} */
