@@ -55,6 +55,11 @@ h1 {
 .menu-main {
     margin: 0;
 }
+
+.menu-item-img {
+    display: block;
+}
+
 .menu-section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
